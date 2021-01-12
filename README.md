@@ -1,6 +1,7 @@
 # AmongUS-Sucks
 This my C++ shitty AMONGUS hack.
-You can download it from releases.
+
+# To use it download the exe from releases its fun to play the game with it
 </hr>
 Sometimes game crashes.
 The participants and max player is laggy.
