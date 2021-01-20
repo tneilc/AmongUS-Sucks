@@ -6,7 +6,7 @@ This my C++/C# AmongUS cheat
 	•Config updates when you change a value.<br>
  	•Teleport only work on The Skeld cause I am lazy.<br>
 	•Sometimes speed crashes idk why.<br>
-
+<br>
 Some features need game to be started so dont run the hack until the game starts.
 
 # ENJOY
