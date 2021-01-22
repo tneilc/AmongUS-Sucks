@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -110,7 +110,7 @@ PlayerY = {playery}
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            memory.WriteMemory("GameAssembly.dll+01BC7D88,8,ba0", "int", comboBox1.SelectedIndex.ToString());
+            memory.WriteMemory("GameAssembly.dll+01C5803C,5c,34,40", "int", comboBox1.SelectedIndex.ToString());
             readall();
         }
 
@@ -144,16 +144,16 @@ PlayerY = {playery}
         {
             if (Xtext.Text != "" & Ytext.Text == "")
             {
-                memory.WriteMemory("UnityPlayer.dll+01277F00,20,2c,3ec", "float", Xtext.Text);
+                memory.WriteMemory("UnityPlayer.dll+012B9BE0,20,2c,5c,120,2c", "float", Xtext.Text);
             }
             else if (Xtext.Text == "" & Ytext.Text != "")
             {
-                memory.WriteMemory("UnityPlayer.dll+01277F00,20,2c,3f0", "float", Ytext.Text);
+                memory.WriteMemory("UnityPlayer.dll+012B9BE0,20,2c,5c,120,30", "float", Ytext.Text);
             }
             else if (Xtext.Text != "" & Ytext.Text != "")
             {
-                memory.WriteMemory("UnityPlayer.dll+01277F00,20,2c,3ec", "float", Xtext.Text);
-                memory.WriteMemory("UnityPlayer.dll+01277F00,20,2c,3f0", "float", Ytext.Text);
+                memory.WriteMemory("UnityPlayer.dll+012B9BE0,20,2c,5c,120,2c", "float", Xtext.Text);
+                memory.WriteMemory("UnityPlayer.dll+012B9BE0,20,2c,5c,120,30", "float", Ytext.Text);
             }
             Xtext.Clear();
             Ytext.Clear();
