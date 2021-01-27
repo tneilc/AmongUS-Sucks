@@ -9,7 +9,7 @@ This my C++/C# AmongUS cheat
 Some features need game to be started so dont run the hack until the game starts.
 
 # ENJOY
-<br>
+<hr>
 # Offsets are dead I will update them!!
 <br>
 
