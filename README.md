@@ -10,5 +10,7 @@ Some features need game to be started so dont run the hack until the game starts
 
 # ENJOY
 <br>
+# Offsets are dead I will update them!!
+<br>
 
 ![bum](https://user-images.githubusercontent.com/65496622/105195442-b0b10c80-5b4b-11eb-92f9-417f926db37b.png)
